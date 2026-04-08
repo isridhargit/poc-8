@@ -11,7 +11,7 @@ pipeline {
         stage('Pull Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/creativesenthil/poc-8-nodejs.git'
+                    url: 'https://github.com/isridhargit/poc-8.git'
             }
         }
 
