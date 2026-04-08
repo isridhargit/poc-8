@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'poc8-nodejs'
-        DOCKERHUB_USER = 'Iamisridhar'
+        DOCKERHUB_USER = 'iamisridhar'
     }
 
     stages {
