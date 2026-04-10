@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello from POC-8! CI PIPELINE IS WORKING!');
+    res.send('Hello from POC-8! ci part is working now!');
 });
 
 app.listen(3000, () => {
